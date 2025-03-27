@@ -1,0 +1,35 @@
+.card-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 5px;
+  width: 300px;
+  height: auto;
+  padding: 12px;
+
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.card-conteiner:hover {
+  transform: scale(1.05);
+}
+
+.card-conteiner:active {
+  transform: scale(0.95);
+}
+
+.card-country-name {
+  font-size: 22px;
+}
+
+.card-country-name span {
+  font-weight: 700;
+  font-style: italic;
+}
