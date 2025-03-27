@@ -1,0 +1,14 @@
+.app-conteiner {
+  margin-top: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.app-conteiner#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
