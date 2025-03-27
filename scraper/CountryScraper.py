@@ -2,7 +2,6 @@
 
 from bs4 import BeautifulSoup
 import requests 
-import json
 
 page_to_scrape = requests.get('https://www.scrapethissite.com/pages/simple/')
 soup = BeautifulSoup(page_to_scrape.text, "html.parser")
